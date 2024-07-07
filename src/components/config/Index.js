@@ -1,0 +1,125 @@
+export const PRODUCT_CATEGORIES = [
+    {
+      label: 'Fast Selling',
+      value: 'ui_kits',
+      featured: [
+        {
+          name: 'Mac Book',
+          href: `/products?category=ui_kits`,
+          imageSrc: '/MAC.png',
+          price:89000,
+        },
+        {
+          name: 'Smart Watch  ',
+          href: '/products?category=ui_kits&sort=desc',
+          imageSrc: '/Smart watch.png',
+          price:39400,
+        },
+        {
+          name: 'Airpods',
+          href: '/products?category=ui_kits',
+          imageSrc: '/Airpods.png',
+          price:20200,
+        },
+      ],
+    },
+    {
+      label: 'Top Rated',
+      value: 'icons',
+      featured: [
+        {
+          name: 'Iphone',
+          href: `/products?category=icons`,
+          imageSrc: '/Iphone.jpeg',
+          price:70300,
+        },
+        {
+          name: 'Samsung s20',
+          href: '/products?category=icons&sort=desc',
+          imageSrc: '/Samsung s20.png',
+          price:56000,
+        },
+        {
+          name: 'note 20',
+          href: '/products?category=icons',
+          imageSrc: 'Samsung note 20.png',
+          price: 60000,
+        },
+      ],
+    },
+  ]
+
+  export const products = [
+    {
+        id: "1",
+        title: "Air Conditioner",
+        price: 29990,
+        description: "A sleek and modern UI kit perfect for web and mobile applications.",
+        author: "DesignPros",
+        image: "AC.png",
+        likes: "150",
+    },
+    {
+        id: "2",
+        title: "Electric Stove",
+        price: 14599,
+        description: "A set of flat design icons suitable for any project.",
+        author: "IconFactory",
+        image: "/Electric Stove.png",
+        likes: "200",
+    },
+    {
+        id: "3",
+        title: "Refridgerator",
+        price: 39599,
+        description: "Vintage styled UI elements for a unique look.",
+        author: "RetroDesigns",
+        image: "/Fridge.png",
+        likes: "75",
+    },
+    {
+        id: "4",
+        title: "LED TV",
+        price: 25780,
+        description: "Minimalist wireframes to streamline your design process.",
+        author: "WireframeMaster",
+        image: "/LED TV.png",
+        likes: "180",
+    },
+    {
+        id: "5",
+        title: "Juice Blender",
+        price: 4399,
+        description: "500 Watt Blender with 5 years Warranty",
+        author: "ShopBuilder",
+        image: "/Juice Blender.png",
+        likes: "300",
+    },
+    {
+        id: "6",
+        title: "Smart Phone",
+        price: 35499,
+        description: "A pack of social media templates and icons.",
+        author: "SocialMediaGuru",
+        image: "/Mobile Phone.png",
+        likes: "220",
+    },
+    {
+        id: "7",
+        title: "Washing Machine",
+        price: 27399,
+        description: "A detailed UI kit for creating modern dashboards.",
+        author: "DashDesigns",
+        image: "/Washing Machine.png",
+        likes: "350",
+    },
+    {
+        id: "8",
+        title: "Micro Oven",
+        price: 1099,
+        description: "A pack of 3D icons for adding depth to your designs.",
+        author: "3DIconFactory",
+        image: "/Micro Oven.png",
+        likes: "95",
+    }
+];
